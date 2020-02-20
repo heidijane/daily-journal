@@ -17,3 +17,15 @@ body {
 .journalForm__field label {
     display: block;
 }
+
+#journalForm__field__concepts {
+    width: 100%;
+    min-width: 200px;
+    max-width:400px;
+}
+
+#journalForm__field__entry {
+    width: 100%;
+    min-width: 200px;
+    max-width:500px;
+}
