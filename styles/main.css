@@ -3,15 +3,22 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    background-color: rgb(159, 165, 148);
 }
 
 .title {
     font-family: 'Redressed', cursive;
+    color:rgb(44, 26, 26);
 }
 
 .journalForm {
     display: flex;
     flex-direction: column;
+}
+
+.journalForm__field {
+    border:0;
+    background-color: rgb(225, 226, 222);
 }
 
 .journalForm__field label {
