@@ -1,0 +1,8 @@
+.journalForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.journalForm__field label {
+    display: block;
+}
