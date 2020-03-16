@@ -1,16 +1,10 @@
-/*
- *  Purpose:
- *    To render as many journal entry components as
- *    there are items in the collection exposed by the
- *    data provider component
- */
 import { useJournalEntries } from "./JournalDataProvider.js"
-import JournalEntryComponent from "./JournalEntry.js"
+import { JournalEntryComponent } from "./JournalEntry.js"
 
 // DOM reference to where all entries will be rendered
 const contentElement = document.querySelector(".journalEntries")
 
-const EntryListComponent = () => {
+export const EntryListComponent = () => {
     // Use the journal entry data from the data provider component
     const entries = useJournalEntries()
 
@@ -18,5 +12,3 @@ const EntryListComponent = () => {
         contentElement.innerHTML += JournalEntryComponent(entry)
     }
 }
-
-export default EntryListComponent
