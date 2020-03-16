@@ -1,0 +1,14 @@
+.journalEntry {
+    margin: 1em;
+}
+
+.journalEntry__concept {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.journalEntry__mood {}
+
+.journalEntry__entryText {}
+
+.journalEntry__date {}

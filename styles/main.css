@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Redressed&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
-
+@import url('journalEntries.css');
 body {
     font-family: 'Work Sans', sans-serif;
     background-color: rgb(159, 165, 148);
@@ -8,7 +8,7 @@ body {
 
 .title {
     font-family: 'Redressed', cursive;
-    color:rgb(44, 26, 26);
+    color: rgb(44, 26, 26);
 }
 
 .journalForm {
@@ -17,7 +17,7 @@ body {
 }
 
 .journalForm__field {
-    border:0;
+    border: 0;
     background-color: rgb(225, 226, 222);
 }
 
@@ -28,27 +28,28 @@ body {
 #journalForm__field__concepts {
     width: 100%;
     min-width: 200px;
-    max-width:400px;
+    max-width: 400px;
 }
 
 #journalForm__field__entry {
     width: 100%;
     min-width: 200px;
-    max-width:500px;
+    max-width: 500px;
 }
 
 .journalForm_submit {
-    max-width:200px;
+    max-width: 200px;
     margin: .5em 0 0 2px;
     padding: .5em;
-    font-size:1em;
-    border:0;
+    font-size: 1em;
+    border: 0;
     cursor: pointer;
-    color:rgb(44, 26, 26);
+    color: rgb(44, 26, 26);
 }
+
 .journalForm_submit:hover,
 .journalForm_submit:focus {
-    color:white;
+    color: white;
     background: #0053ba;
 }
 
